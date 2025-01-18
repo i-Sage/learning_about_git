@@ -14,3 +14,4 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 project(speeding_up_iostreams CXX)
 add_executable(main src/main.cc)
 
+add_executable(gen src/generator.cc)
